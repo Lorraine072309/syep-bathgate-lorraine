@@ -13,6 +13,7 @@ body{
 
 .section{
     padding:40px 20px;
+    background-color: lightpink;
 }
 
 .hero{
@@ -41,6 +42,11 @@ body{
 @media (max-width: 768px){
   body{background: #dfa36a;}
 }
+
+@media (max-width: 768px){
+    .section{background-color: #ace9da;}
+}
+
 
 .hero-text{
     display:flex;
