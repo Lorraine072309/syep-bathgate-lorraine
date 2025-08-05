@@ -1,41 +1,130 @@
-console.log("Hello World!");
+const reviews = [
+{
+    id:1,
+    name:'Susan Smith',
+    job: 'web Developer',
+    img: '075fc01e1ea24225cf9ee36d40e11e62.jpg',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
+},
 
-let myString = "a2b3c";
-console.log(myString);
+{
+    id:2,
+    name:'Anna Johnson',
+    job: 'web Designer',
+    img: '#',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
+},
 
-let myNumVar = 123;
-console.log(typeof myNumVar);
+{
+    id:3,
+    name:'Peter Jones',
+    job: 'Intern',
+    img: '#',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
+},
 
-console.log(10 + " eggs");
-console.log(10 + 7 + " eggs");
-console.log("eggs" + 10 + 7);
+];
+//select items
+const img = document.getElementById('person-img');
+const author = document.getElementById('author');
+const job = document.getElementById('job');
+const info = document.getElementById('info');
 
-console.log(3>=2);
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
 
-//Both Conditions Need to be true
-console.log(7>3)&&(5<10);
+let currentItem = 0;
 
-// Only One condition must be true
-console.log(10>3)||(10>12);
+window.addEventListener('DOMContentLoaded', function(){
+    const item = reviews[currentItem];
+    img.src = item.img;
+    author.textContent = item.name;
+    job.textContent = item.job;
+    info.textContent = item.text;
+});
 
-//If the statement is logical or not
-console.log(!5>3);
-
-function introduction(name, age){
-    console.log("Hello, my name is " + name + " and I am " + age + " years old.")
+function showPerson(person){
+    const item = reviews[person];
+     img.src = item.img;
+    author.textContent = item.name;
+    job.textContent = item.job;
+    info.textContent = item.text;
 }
 
-introduction("Lorraine", 16)
+nextBtn.addEventListener('click',function (){
+    currentItem++;
+    if (currentItem >reviews.length- 1) {
+        currentItem= 0;
+    }
+    showPerson(currentItem);
+    
+});
 
-const hour = new Date().getHours();
-let greeting = "";
+prevBtn.addEventListener('click',function (){
+    currentItem--;
+    if (currentItem < 0) {
+        currentItem= reviews.length -1;
+    }
+    showPerson(currentItem);
+});
 
-if (hour<12){
-    greeting = "Good Morning";
-}else if (hour<18){
-    greeting = "Good Afternoon";
-}else {
-    greeting = "Good Evening";
-}
 
-document.getElementById("greeting").innerText = greeting;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log("Hello World!");
+
+// let myString = "a2b3c";
+// console.log(myString);
+
+// let myNumVar = 123;
+// console.log(typeof myNumVar);
+
+// console.log(10 + " eggs");
+// console.log(10 + 7 + " eggs");
+// console.log("eggs" + 10 + 7);
+
+// console.log(3>=2);
+
+// //Both Conditions Need to be true
+// console.log(7>3)&&(5<10);
+
+// // Only One condition must be true
+// console.log(10>3)||(10>12);
+
+// //If the statement is logical or not
+// console.log(!5>3);
+
+// function introduction(name, age){
+//     console.log("Hello, my name is " + name + " and I am " + age + " years old.")
+// }
+
+// introduction("Lorraine", 16)
+
+// const hour = new Date().getHours();
+// let greeting = "";
+
+// if (hour<12){
+//     greeting = "Good Morning";
+// }else if (hour<18){
+//     greeting = "Good Afternoon";
+// }else {
+//     greeting = "Good Evening";
+// }
+
+// document.getElementById("greeting").innerText = greeting;
