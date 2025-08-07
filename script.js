@@ -1,19 +1,20 @@
 const reviews = [
 {
     id:1,
-    name:'Susan Smith',
-    job: 'web Developer',
+    name:'Estefania Lucero',
+    job: 'Assistant Director',
     img: '075fc01e1ea24225cf9ee36d40e11e62.jpg',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
+    text: 'The Co-founder of Jaloka Cream& Spice Lorraine Dunbar has shown incredible talent and dedication in creating and selling her own ',
 },
 
 {
     id:2,
-    name:'Anna Johnson',
-    job: 'web Designer',
+    name:'Celeste Kim',
+    job: 'Periodontist',
     img: '#',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
-},
+    text: 'The Co-founder of JaLoKa Cream & Spice Lorrraine Dunbar has shown incredible talent and dedication in creating and selling her own skincare products. She attended a young adult work event to showcase her products. At The JJP Veteran Medical Center. Her formulas are high-quality-quality, beautifully packaged, and cleary made with care. Its inspring to see such passion from someone so  young!'
+    
+},          
 
 {
     id:3,
