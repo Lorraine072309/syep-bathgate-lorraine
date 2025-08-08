@@ -6,7 +6,7 @@
 
 body{
     background-color: lightblue;
-    color:#333;
+    color:#2591a9;
     text-align: center;
     line-height: 3;
 }
@@ -14,6 +14,7 @@ body{
 .section{
     padding:40px 20px;
     background-color: lightpink;
+    color:deeppink
 }
 
 .hero{
