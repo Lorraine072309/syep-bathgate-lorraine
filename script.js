@@ -1,10 +1,10 @@
 const reviews = [
 {
     id:1,
-    name:'Estefania Lucero',
-    job: 'Assistant Director',
+    name:'Latifah Powe',
+    job: 'Business Operations Manager of Travel & Leisure',
     img: '075fc01e1ea24225cf9ee36d40e11e62.jpg',
-    text: 'The Co-founder of Jaloka Cream& Spice Lorraine Dunbar has shown incredible talent and dedication in creating and selling her own ',
+    text: 'Lorraine from JaLoKa Cream & Spice was very attentive, kindhearted and detailed. I purchased body butters as Christmas presents for my employess and she added special touches although my order was last minute. I appreciate her patience and professionalism. Try the Calendula oil it was my summer favorite! ',
 },
 
 {
