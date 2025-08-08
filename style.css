@@ -15,6 +15,7 @@ body{
     padding:40px 20px;
     background-color: lightpink;
     color:deeppink
+    
 }
 
 .hero{
@@ -31,10 +32,13 @@ body{
 }
 
 .grid div{
-    background-color:aliceblue;
+    background-color:rgb(252, 233, 241);
     padding: 20px;
     border-radius: 40px;
 }
+
+
+
 
 @media (max-width: 768px){
     .hero h1{font: size 40px;}
@@ -45,7 +49,15 @@ body{
 }
 
 @media (max-width: 768px){
-    .section{background-color: #ace9da;}
+    .section{background-color: #fff8cb;}
+}
+
+@media (max-width: 768px){
+    body{color:pink}
+}
+
+@media (max-width: 768px){
+    .section{color:rgba(255, 20, 145, 0.811)}
 }
 
 

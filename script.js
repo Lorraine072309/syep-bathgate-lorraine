@@ -18,10 +18,10 @@ const reviews = [
 
 {
     id:3,
-    name:'Peter Jones',
-    job: 'Intern',
+    name:'Cliff Grayson',
+    job: 'Director of housekeeping for The Vanderbilt',
     img: '#',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?',
+    text: 'Collaborating with Lorraine Dunbar from JaLoKa Cream & Spice was a dream from start to finish. For a luxury wedding hosted at our hotel, Lorraine helped curate bespoke amenity sets that completely wowed our guests. Her maturity, warmth, and attention to detail made the process seamless and genuienly enjoyable. The final amenities were stunning. Each one beautifully packaged and the scents and textures perfectly captured the elegance and intimacy of the event.',
 },
 
 ];
