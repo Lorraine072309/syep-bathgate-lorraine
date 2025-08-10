@@ -16,6 +16,7 @@ body{
     background-color: lightpink;
     color:deeppink
     
+    
 }
 
 .hero{
@@ -37,6 +38,10 @@ body{
     border-radius: 40px;
 }
 
+
+img{
+    border: 5px solid rgb(105, 188, 211);
+}
 
 
 
@@ -60,6 +65,9 @@ body{
     .section{color:rgba(255, 20, 145, 0.811)}
 }
 
+@media (max-width: 768px){
+    img{border-color: #ad683a;}
+}
 
 .hero-text{
     display:flex;
@@ -68,4 +76,21 @@ body{
 
 .hero img{
     border-radius: 50%;
+    animation-name: flip;
+    animation-duration: 4s;
+    animation: iteration count 2px;;
+    animation-timing-function: linear;
 }
+
+@keyframes flip{ 
+     0%{
+        transform: rotateY(0);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+
+
+

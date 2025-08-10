@@ -3,7 +3,7 @@ const reviews = [
     id:1,
     name:'Latifah Powe',
     job: 'Business Operations Manager of Travel & Leisure',
-    img: '075fc01e1ea24225cf9ee36d40e11e62.jpg',
+    img: 'IMG_1602.jpg',
     text: 'Lorraine from JaLoKa Cream & Spice was very attentive, kindhearted and detailed. I purchased body butters as Christmas presents for my employess and she added special touches although my order was last minute. I appreciate her patience and professionalism. Try the Calendula oil it was my summer favorite! ',
 },
 
@@ -11,7 +11,7 @@ const reviews = [
     id:2,
     name:'Celeste Kim',
     job: 'Periodontist',
-    img: '#',
+    img: 'Dr.Kim img.jpg',
     text: 'The Co-founder of JaLoKa Cream & Spice Lorrraine Dunbar has shown incredible talent and dedication in creating and selling her own skincare products. She attended a young adult work event to showcase her products. At The JJP Veteran Medical Center. Her formulas are high-quality-quality, beautifully packaged, and cleary made with care. Its inspring to see such passion from someone so  young!'
     
 },          
@@ -20,7 +20,7 @@ const reviews = [
     id:3,
     name:'Cliff Grayson',
     job: 'Director of housekeeping for The Vanderbilt',
-    img: '#',
+    img: 'Cliffs img.jpg',
     text: 'Collaborating with Lorraine Dunbar from JaLoKa Cream & Spice was a dream from start to finish. For a luxury wedding hosted at our hotel, Lorraine helped curate bespoke amenity sets that completely wowed our guests. Her maturity, warmth, and attention to detail made the process seamless and genuienly enjoyable. The final amenities were stunning. Each one beautifully packaged and the scents and textures perfectly captured the elegance and intimacy of the event.',
 },
 
